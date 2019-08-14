@@ -36,7 +36,7 @@ IoT kurs med introduksjon til ESP8266, servo, 7-segment display og værapi.
 
 # Extra
 
-Weather symbols and texts: https://om.yr.no/symbol/
+Weather symbols and texts: https://hjelp.yr.no/hc/no/articles/203786121-V%C3%A6rsymbolene-p%C3%A5-Yr-
 
 # Contact
 
