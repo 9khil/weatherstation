@@ -45,7 +45,7 @@ void doRequest(String location){
          // Sjekker om HTTP status vi fikk tilbake var 200OK eller ei.
           char status[32] = {0};
           client.readBytesUntil('\r', status, sizeof(status));
-          if (strcmp(status, "HTTP/1.1 200 OK") != 0) {
+          if (strcmp(status, "HTTP/1.0 200 OK") != 0) {
             Serial.print(F("Unexpected response: "));
             Serial.println(status);
             return;
